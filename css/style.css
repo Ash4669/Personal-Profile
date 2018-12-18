@@ -1,0 +1,120 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #116466;
+  font-family: sans-serif;
+  color: #D1E8E2;
+  font-weight: 100;
+}
+
+.nav-bar {
+  background-color: #2C3531;
+  width: 100vw;
+}
+
+.nav-bar img{
+  height: 100px;
+  padding: 10px;
+}
+
+.links {
+  display: inline-block;
+  background-color: #2C3531;
+}
+
+.nav-bar ul {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+.nav-bar li{
+  padding: 10px 20px;
+  color: #D9B08C;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 100;
+  display: inline-block;
+}
+
+.nav-bar li:hover{
+  background-color: #116466;
+  color: #D1E8E2;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.below-nav {
+  display: flex;
+  background-color: #116466;
+  width: 100%;
+  padding: 10px;
+}
+
+.left-bar {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headshot {
+  width: 90%;
+  border-radius: 50%;
+  border: 3px solid #D9B08C;
+  margin: 5%;
+}
+
+.headshot-small {
+  width: 50%;
+}
+
+.large-image {
+  width: 75%;
+}
+
+.main-image {
+  width: 90%;
+  padding: 2.5% 5%;
+}
+
+.heading {
+  color: #D9B08C;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.sub-heading {
+  font-size: 24px;
+  padding: 13px 0px 15px 0px;
+}
+
+.uni-info {
+  font-weight: 100;
+}
+
+.main-content {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.summary {
+  line-height: 22px;
+  padding: 0px 50px 0px 0px;
+}
+
+.split {
+  width: 50%;
+}
+
+/* color scheme 18
+#2C3531 black green     (background)
+#116466 mint green      (bright pink support)
+#D9B08C peach   (centered)
+#FFCB9A  orange peach   (centered)
+#D1E8E2 white cream    (greeny blue support)
+#FFFFFF white         (text)
+*/
